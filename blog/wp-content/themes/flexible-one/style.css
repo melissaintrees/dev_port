@@ -1,0 +1,160 @@
+/*
+Theme Name:     Flexible One
+Theme URI:      https://mysterythemes.com/wp-themes/flexible-one/
+Author:         Mystery Themes
+Author URI:     https://mysterythemes.com
+Description:    Flexible One is a child theme of Flexible Lite. This is an Elegant & Creative One Page WordPress theme which have many powerful features to allow you build websites very easy and unlimited your creative to make impressed websites. Demo url: http://demo.mysterythemes.com/flexible-one  Support URL: https://mysterythemes.com/support/forum/themes/free-themes/flexible-one/
+Version:        1.0.0
+License:        GNU General Public License v3 or later
+License URI:    http://www.gnu.org/licenses/gpl-3.0.html
+Template:       flexible-lite
+Text Domain:    flexible-one
+Tags:           portfolio, blog, photography, grid-layout, two-columns, three-columns, left-sidebar, right-sidebar, custom-logo, footer-widgets,  translation-ready, custom-background, custom-menu, threaded-comments, translation-ready
+*/
+/*--------------------------------------------------------------
+Galleries
+--------------------------------------------------------------*/
+
+.gallery {
+    margin-bottom: 1.5em;
+    margin-left: -2%;
+}
+
+.gallery-item {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+    margin-bottom: 3%;
+    margin-left: 2%;
+}
+
+.site-main .gallery a img {
+    max-width: none;
+    width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+    max-width: 47%;
+}
+
+.gallery-columns-3 .gallery-item {
+    max-width: 31.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+    max-width: 23%;
+}
+
+.gallery-columns-5 .gallery-item {
+    max-width: 18%;
+}
+
+.gallery-columns-6 .gallery-item {
+    max-width: 14.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+    max-width: 12.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+    max-width: 10.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+    max-width: 9.11%;
+}
+
+.gallery-caption {
+    display: block;
+}
+.slide-caption {
+	background: rgba(0,0,0,0.7);
+	color: #fff;
+	font-size: 46px;
+	padding: 12px 0;
+	display: inline-block;
+	padding: 8px 50px;
+}
+
+.slide-content p {
+	margin-bottom: 0;
+	background: rgba(0,0,0,0.7);
+}
+
+.slider-btn {
+	border-radius: 0;
+	background: #ff5e62;
+}
+
+.slider-btn:hover {
+	border-radius: 30px;
+}
+
+.cta-title-wrap {
+	float: none;
+	text-align: center;
+}
+
+.cta-content-wrapper {
+	text-align: center;
+}
+
+.cta-button {
+	float: none;
+	background: #fff;
+	color: #333;
+	font-size: 20px;
+	margin: 30px 0 0;
+	font-weight: 700;
+	padding: 5px 30px;
+}
+
+.cta-title {
+	font-size: 46px;
+	text-transform: uppercase;
+}
+
+.cta-detaiils {
+	font-size: 26px;
+}
+
+.cta-overlay {
+	background: rgba( 255,94,98,0.8 );
+}
+
+.flexible_lite_latest_news .post-meta {
+	background: #fff none repeat scroll 0 0;
+	margin: 0;
+	padding: 10px 0 10px;
+	text-align: center;
+	top: 0;
+	width: 100%;
+	z-index: 99;
+}
+
+.blog-content-wrapper .news-title {
+	margin: 0 0 15px;
+	padding: 10px 0 0;
+}
+
+.blog-content-wrapper .news-more {
+	bottom: 0;
+	display: inline-block;
+	position: static;
+	-moz-transform: none;
+    -webkit-transform: none;
+    transform: none;
+}
+
+.blog-content-wrapper {
+	padding: 0px 20px 20px;
+}
+
+.flexible_lite_contact_us .left-section {
+	float: none;
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+}

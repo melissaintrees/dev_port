@@ -1,0 +1,1206 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Blog Writer\n"
+"POT-Creation-Date: 2019-02-14 18:15-0800\n"
+"PO-Revision-Date: 2018-04-21 20:56-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgid "404"
+msgstr ""
+
+#: 404.php:19
+msgid "Page Not Found"
+msgstr ""
+
+#: 404.php:22
+msgid ""
+"Unfortunately, the page you were going to\n"
+"appears to be missing. Use the search below to try finding it."
+msgstr ""
+
+#. translators: %s: Author name
+#: author-bio.php:23
+#, php-format
+msgid "Read articles by %s"
+msgstr ""
+
+#: comments.php:19
+msgid "Reader Comments"
+msgstr ""
+
+#: comments.php:44
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:52
+msgid "Submit Comment"
+msgstr ""
+
+#: comments.php:53
+msgid "Write a Comment"
+msgstr ""
+
+#: comments.php:57
+msgid "* Message"
+msgstr ""
+
+#: comments.php:62
+msgid "* Name"
+msgstr ""
+
+#: comments.php:66
+msgid "* Email"
+msgstr ""
+
+#: comments.php:70
+msgid "Website"
+msgstr ""
+
+#: footer.php:19
+msgid "Copyright &copy;"
+msgstr ""
+
+#: footer.php:20
+msgid "Y"
+msgstr ""
+
+#: footer.php:21
+msgid "All rights reserved."
+msgstr ""
+
+#: functions.php:65 inc/sidebars.php:100
+msgid "Footer"
+msgstr ""
+
+#: functions.php:66
+msgid "Primary"
+msgstr ""
+
+#: functions.php:67
+msgid "Social"
+msgstr ""
+
+#: functions.php:140
+msgid "expand child menu"
+msgstr ""
+
+#: functions.php:141
+msgid "collapse child menu"
+msgstr ""
+
+#: header.php:22
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:47
+msgid "Menu"
+msgstr ""
+
+#: header.php:51
+msgid "Primary Menu"
+msgstr ""
+
+#: image.php:46
+msgid "Previous Image"
+msgstr ""
+
+#: image.php:47
+msgid "Next Image"
+msgstr ""
+
+#. translators: %1$s: comment date time
+#: inc/comment-style.php:28
+#, php-format
+msgctxt "The date"
+msgid "Commented on %1$s"
+msgstr ""
+
+#: inc/comment-style.php:32
+msgid "&ndash; Reply"
+msgstr ""
+
+#: inc/comment-style.php:41
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/customizer.php:36 inc/theme-info/blog-writer-info.php:132
+msgid "Blog Writer Pro"
+msgstr ""
+
+#: inc/customizer.php:38
+msgid ""
+"If you decide to upgrade to the pro version of this theme, use this discount "
+"code on checkout."
+msgstr ""
+
+#: inc/customizer.php:39
+msgid "Upgrade to Pro (Save $5)"
+msgstr ""
+
+#: inc/customizer.php:39
+msgid "Use Code:"
+msgstr ""
+
+#: inc/customizer.php:39 inc/theme-info/blog-writer-info.php:41
+msgid "SAVEFIVE"
+msgstr ""
+
+#: inc/customizer.php:40
+msgid "Get the Pro - Save $5"
+msgstr ""
+
+#: inc/customizer.php:42
+msgid "Pro Features:"
+msgstr ""
+
+#: inc/customizer.php:44
+msgid "&bull; 14 Blog Styles"
+msgstr ""
+
+#: inc/customizer.php:45
+msgid "&bull; 13 Sidebar Positions"
+msgstr ""
+
+#: inc/customizer.php:46
+msgid "&bull; Thumbnail Creation for the Blogs"
+msgstr ""
+
+#: inc/customizer.php:47
+msgid "&bull; Featured Image Captions"
+msgstr ""
+
+#: inc/customizer.php:48
+msgid "&bull; Add More Google Fonts"
+msgstr ""
+
+#: inc/customizer.php:49
+msgid "&bull; Typography Options"
+msgstr ""
+
+#: inc/customizer.php:50
+msgid "&bull; Custom Styled Archive Titles"
+msgstr ""
+
+#: inc/customizer.php:51
+msgid "&bull; Page Builder Ready"
+msgstr ""
+
+#: inc/customizer.php:54 inc/theme-info/blog-writer-info.php:42
+msgid "Get the Pro"
+msgstr ""
+
+#: inc/customizer.php:65
+msgid "Page Background Colour"
+msgstr ""
+
+#: inc/customizer.php:83
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/customizer.php:93
+msgid "Get The Pro Version:"
+msgstr ""
+
+#: inc/customizer.php:106
+msgid "Show the Site Title"
+msgstr ""
+
+#: inc/customizer.php:117
+msgid "Show the Site Description"
+msgstr ""
+
+#: inc/customizer.php:127
+msgid "Site Title Colour"
+msgstr ""
+
+#: inc/customizer.php:138
+msgid "Site Tagline Colour"
+msgstr ""
+
+#: inc/customizer.php:145 inc/theme-info/blog-writer-info.php:249
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer.php:157
+msgid "Boxed Layout Width"
+msgstr ""
+
+#: inc/customizer.php:158
+msgid ""
+"Change the max-width for your site content for a boxed layout. You can go "
+"from 1160px to 2560px (for really wide screens). Using the up/down arrows "
+"will change the size in increments of 100px. Default is size 2560"
+msgstr ""
+
+#: inc/customizer.php:173
+msgid "Blog Layout"
+msgstr ""
+
+#: inc/customizer.php:176
+msgid "Default With Right Sidebar"
+msgstr ""
+
+#: inc/customizer.php:177
+msgid "Default With Left Sidebar"
+msgstr ""
+
+#: inc/customizer.php:178
+msgid "Grid With No Sidebar"
+msgstr ""
+
+#: inc/customizer.php:179
+msgid "Grid With Right Sidebar"
+msgstr ""
+
+#: inc/customizer.php:180
+msgid "Grid With Left Sidebar"
+msgstr ""
+
+#: inc/customizer.php:181
+msgid "Centered With No Sidebar"
+msgstr ""
+
+#: inc/customizer.php:191
+msgid "Full Post Style"
+msgstr ""
+
+#: inc/customizer.php:194
+msgid "Single With Right Sidebar"
+msgstr ""
+
+#: inc/customizer.php:195
+msgid "Single With Left Sidebar"
+msgstr ""
+
+#: inc/customizer.php:196
+msgid "Single With No Sidebars"
+msgstr ""
+
+#: inc/customizer.php:207
+msgid "Use Excerpts"
+msgstr ""
+
+#: inc/customizer.php:208
+msgid ""
+"Use excerpts for your blog post summaries or uncheck the box to use the "
+"standard Read More tag. NOTE: Some blog styles only use excerpts."
+msgstr ""
+
+#: inc/customizer.php:220
+msgid "Excerpt Size"
+msgstr ""
+
+#: inc/customizer.php:221
+msgid ""
+"You can change the size of your blog summary excerpts with increments of 5 "
+"words."
+msgstr ""
+
+#: inc/customizer.php:236
+msgid "Show the Featured Tag"
+msgstr ""
+
+#: inc/customizer.php:237
+msgid ""
+"This lets you show the featured tag in the post meta info. Note: It does not "
+"show on the Photowall blog style."
+msgstr ""
+
+#: inc/customizer.php:248
+msgid "Show the Post Date"
+msgstr ""
+
+#: inc/customizer.php:249
+msgid ""
+"This lets you show the post date in the meta info group for the summary."
+msgstr ""
+
+#: inc/customizer.php:260
+msgid "Show the Post Author"
+msgstr ""
+
+#: inc/customizer.php:261
+msgid ""
+"This lets you show the post author in the meta info group for the summary."
+msgstr ""
+
+#: inc/customizer.php:272
+msgid "Show the Post Comment Link"
+msgstr ""
+
+#: inc/customizer.php:273
+msgid ""
+"This lets you show the post comment link in the meta info group for the "
+"summary."
+msgstr ""
+
+#: inc/customizer.php:284
+msgid "Show the Edit Link"
+msgstr ""
+
+#: inc/customizer.php:285
+msgid "This lets you show or hide the front-end edit link."
+msgstr ""
+
+#: inc/customizer.php:296
+msgid "Show the Full Post Featured Image"
+msgstr ""
+
+#: inc/customizer.php:297
+msgid "This lets you show the featured image also on the full post view."
+msgstr ""
+
+#: inc/customizer.php:308
+msgid "Show the Full Post Footer Group"
+msgstr ""
+
+#: inc/customizer.php:309
+msgid ""
+"This lets you show or hide the full post footer group that includes the tags "
+"list."
+msgstr ""
+
+#: inc/customizer.php:320
+msgid "Show the Post Navigation"
+msgstr ""
+
+#: inc/customizer.php:321
+msgid ""
+"This lets you show the Next and Previous post navigation on the full post "
+"view."
+msgstr ""
+
+#: inc/customizer.php:332
+msgid "Show the Author Bio Section"
+msgstr ""
+
+#: inc/customizer.php:333
+msgid ""
+"This lets you show the author biography section in the full article view."
+msgstr ""
+
+#: inc/customizer.php:344
+msgid "Show the Related Posts Section"
+msgstr ""
+
+#: inc/customizer.php:345
+msgid "This lets you show the related posts section on the full article view."
+msgstr ""
+
+#: inc/customizer.php:358
+msgid "Related Posts Displayed From:"
+msgstr ""
+
+#: inc/customizer.php:362
+msgid "Related Posts By Categories"
+msgstr ""
+
+#: inc/customizer.php:363
+msgid "Related Posts By Tags"
+msgstr ""
+
+#: inc/customizer.php:374
+msgid "Show Image Attachment Page Comments"
+msgstr ""
+
+#: inc/customizer.php:375
+msgid ""
+"If you are using a WP gallery shortcode and want to showcase your images on "
+"the custom attachment page, you can enable or disable comments for images."
+msgstr ""
+
+#: inc/customizer.php:386
+msgid "Show Full Post Dropcap"
+msgstr ""
+
+#: inc/customizer.php:387
+msgid ""
+"This lets you show the drop cap style on the first letter of the first "
+"paragraph."
+msgstr ""
+
+#: inc/customizer.php:397
+msgid "Your Copyright Name"
+msgstr ""
+
+#: inc/customizer.php:406
+msgid "Thumbnail Options"
+msgstr ""
+
+#: inc/customizer.php:417
+msgid "Default Style Blog Thumbnails"
+msgstr ""
+
+#: inc/customizer.php:418
+msgid ""
+"This will create featured images for the blog 1 and 2 styled layouts. Size = "
+"760x400 pixels."
+msgstr ""
+
+#: inc/customizer.php:429
+msgid "Grid Style Blog Thumbnails"
+msgstr ""
+
+#: inc/customizer.php:430
+msgid ""
+"This will create featured images for the grid styled layouts. Size = 660x350 "
+"pixels."
+msgstr ""
+
+#: inc/customizer.php:441
+msgid "Centered Style Blog Thumbnails"
+msgstr ""
+
+#: inc/customizer.php:442
+msgid ""
+"This will create featured images for the centered styled layouts. Size "
+"1160x600 pixels. Best for really large photo uploads."
+msgstr ""
+
+#: inc/customizer.php:453
+msgid "Enable Full Post Thumbnail Creation"
+msgstr ""
+
+#: inc/customizer.php:454
+msgid ""
+"When enabled, a custom thumbnail will be created for the full post view. "
+"(Images will be 750x500 pixels."
+msgstr ""
+
+#: inc/customizer.php:465
+msgid "Enable Related Post Thumbnail Creation"
+msgstr ""
+
+#: inc/customizer.php:466
+msgid ""
+"When enabled, a custom thumbnail will be created for the related posts "
+"sections on the full post view."
+msgstr ""
+
+#: inc/customizer.php:477
+msgid "Widget Gallery Thumbnails"
+msgstr ""
+
+#: inc/customizer.php:478
+msgid ""
+"This will create smaller thumbnails when creating galleries with the Gallery "
+"Widget by WordPress. Size will be 100x100 pixels."
+msgstr ""
+
+#: inc/customizer.php:490
+msgid "Page Content Background"
+msgstr ""
+
+#: inc/customizer.php:501
+msgid "Page Content Body Text"
+msgstr ""
+
+#: inc/customizer.php:512
+msgid "Breadcrumbs Background"
+msgstr ""
+
+#: inc/customizer.php:523
+msgid "Breadcrumbs Text"
+msgstr ""
+
+#: inc/customizer.php:534
+msgid "Headings Colour"
+msgstr ""
+
+#: inc/customizer.php:545
+msgid "Post Meta Info"
+msgstr ""
+
+#: inc/customizer.php:556
+msgid "Link Colour"
+msgstr ""
+
+#: inc/customizer.php:567
+msgid "Link Active Visited &amp; Hover Colour"
+msgstr ""
+
+#: inc/customizer.php:578
+msgid "Bottom Sidebar Link Hover Colour"
+msgstr ""
+
+#: inc/customizer.php:589
+msgid "Bottom Sidebar Background"
+msgstr ""
+
+#: inc/customizer.php:600
+msgid "Bottom Sidebar Text"
+msgstr ""
+
+#: inc/customizer.php:611
+msgid "Bottom Tags Hover Background"
+msgstr ""
+
+#: inc/customizer.php:622
+msgid "Bottom Tags Hover Text"
+msgstr ""
+
+#: inc/customizer.php:633
+msgid "Footer Background"
+msgstr ""
+
+#: inc/customizer.php:644
+msgid "Footer Text"
+msgstr ""
+
+#: inc/customizer.php:655
+msgid "Featured Label Background"
+msgstr ""
+
+#: inc/customizer.php:666
+msgid "Featured Label"
+msgstr ""
+
+#: inc/customizer.php:677
+msgid "Tags Background Hover"
+msgstr ""
+
+#: inc/customizer.php:688
+msgid "Tags Text Hover"
+msgstr ""
+
+#: inc/customizer.php:699
+msgid "Mobile Toggle Button"
+msgstr ""
+
+#: inc/customizer.php:710
+msgid "Mobile Toggle Label"
+msgstr ""
+
+#: inc/customizer.php:721
+msgid "Mobile Toggle Button On"
+msgstr ""
+
+#: inc/customizer.php:732
+msgid "Mobile Toggle Label On"
+msgstr ""
+
+#: inc/customizer.php:743
+msgid "Mobile Menu Lines"
+msgstr ""
+
+#: inc/customizer.php:754
+msgid "Main Menu Links"
+msgstr ""
+
+#: inc/customizer.php:765
+msgid "Main Menu Hover Links"
+msgstr ""
+
+#: inc/customizer.php:776
+msgid "Main Menu Active Link Border"
+msgstr ""
+
+#: inc/customizer.php:787
+msgid "Submenu Toggle Arrow Hover Colour"
+msgstr ""
+
+#: inc/customizer.php:798
+msgid "Buttons"
+msgstr ""
+
+#: inc/customizer.php:809
+msgid "Button Label"
+msgstr ""
+
+#: inc/customizer.php:820
+msgid "Button Hover"
+msgstr ""
+
+#: inc/customizer.php:831
+msgid "Button Label Hover"
+msgstr ""
+
+#: inc/customizer.php:842
+msgid "Dropcap Letter Colour"
+msgstr ""
+
+#: inc/related-posts.php:12
+msgid "You may also like these posts"
+msgstr ""
+
+#: inc/related-posts.php:25
+msgid "related-post"
+msgstr ""
+
+#: inc/sidebars.php:9
+msgid "Blog Right Sidebar"
+msgstr ""
+
+#: inc/sidebars.php:11
+msgid "Right sidebar for the blog"
+msgstr ""
+
+#: inc/sidebars.php:18
+msgid "Blog Left Sidebar"
+msgstr ""
+
+#: inc/sidebars.php:20
+msgid "Left sidebar for the blog"
+msgstr ""
+
+#: inc/sidebars.php:27
+msgid "Page Right Sidebar"
+msgstr ""
+
+#: inc/sidebars.php:29
+msgid "Right sidebar for pages"
+msgstr ""
+
+#: inc/sidebars.php:36
+msgid "Page Left Sidebar"
+msgstr ""
+
+#: inc/sidebars.php:38
+msgid "Left sidebar for pages"
+msgstr ""
+
+#: inc/sidebars.php:45
+msgid "Banner"
+msgstr ""
+
+#: inc/sidebars.php:47
+msgid "For Images and Sliders."
+msgstr ""
+
+#: inc/sidebars.php:54
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/sidebars.php:56
+msgid ""
+"For adding breadcrumb navigation if using a plugin, or you can add content "
+"here."
+msgstr ""
+
+#: inc/sidebars.php:64
+msgid "Bottom 1"
+msgstr ""
+
+#: inc/sidebars.php:66
+msgid "Bottom 1 position"
+msgstr ""
+
+#: inc/sidebars.php:73
+msgid "Bottom 2"
+msgstr ""
+
+#: inc/sidebars.php:75
+msgid "Bottom 2 position"
+msgstr ""
+
+#: inc/sidebars.php:82
+msgid "Bottom 3"
+msgstr ""
+
+#: inc/sidebars.php:84
+msgid "Bottom 3 position"
+msgstr ""
+
+#: inc/sidebars.php:91
+msgid "Bottom 4"
+msgstr ""
+
+#: inc/sidebars.php:93
+msgid "Bottom 4 position"
+msgstr ""
+
+#: inc/sidebars.php:102
+msgid "Footer position"
+msgstr ""
+
+#: inc/template-functions.php:21
+msgid "Continue Reading"
+msgstr ""
+
+#: inc/template-functions.php:27
+msgid "&hellip;Continue Reading"
+msgstr ""
+
+#. translators: %s: post date.
+#: inc/template-tags.php:25
+#, php-format
+msgctxt "post date"
+msgid "Posted %s"
+msgstr ""
+
+#. translators: %s: post author.
+#: inc/template-tags.php:37
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:48
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:51
+#, php-format
+msgid "In %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:65
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:91
+msgid "Posts Tagged with&hellip;"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:140
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info-class-about.php:155
+msgid "Dismiss this notice."
+msgstr ""
+
+#: inc/theme-info/blog-writer-info-class-about.php:555
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: inc/theme-info/blog-writer-info-class-about.php:558
+msgid "You do not have the necessary permission to perform this action."
+msgstr ""
+
+#. translators: %1$s: menu title under appearance
+#. translators: %1$s: page name
+#: inc/theme-info/blog-writer-info.php:23
+#: inc/theme-info/blog-writer-info.php:25
+#, php-format
+msgid "About %1$s"
+msgstr ""
+
+#. translators: %1$s: welcome title
+#: inc/theme-info/blog-writer-info.php:27
+#, php-format
+msgid "Welcome to %1$s - v"
+msgstr ""
+
+#. translators: %1$s: welcome content
+#: inc/theme-info/blog-writer-info.php:29
+#, php-format
+msgid ""
+"%1$s is a clean and minimal blog theme that is built for writers who need to "
+"create a personal blog site with simplicity and suttle effects to make "
+"readers feel the pleasure of reading your articles. The design concept for "
+"Blog Writer includes modern, classic, and minimal styles to give you a "
+"simple and clean blog."
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:39
+msgid "Upgrade and Save $5"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:40
+msgid "Use coupon at checkout."
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:45
+msgid "Getting Started"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:46
+#: inc/theme-info/blog-writer-info.php:258
+msgid "Support"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:47
+msgid "Reviews"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:48
+#: inc/theme-info/blog-writer-info.php:87
+msgid "Changelog"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:49
+msgid "Free VS PRO"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:54
+msgid "Setup Documentation"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:55
+msgid ""
+"To help you get started with the initial setup of this theme and to learn "
+"about the various features, you can check out detailed setup documentation."
+msgstr ""
+
+#. translators: %1$s: theme name
+#: inc/theme-info/blog-writer-info.php:57
+#, php-format
+msgid "View %1$s Tutorials"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:64
+#: inc/theme-info/blog-writer-info.php:66
+msgid "Go to Customizer"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:65
+msgid ""
+"Using the WordPress Customizer you can easily customize every aspect of the "
+"theme."
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:74
+msgid "Using a Child Theme"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:75
+msgid ""
+"If you plan to customize this theme, I recommend looking into using a child "
+"theme. To learn more about child themes and why it's important to use one, "
+"check out the WordPress documentation."
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:76
+msgid "Child Themes"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:88
+msgid ""
+"I generally recommend you always read the CHANGELOG before updating so that "
+"you can see what was fixed, changed, deleted, or added to the theme."
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:98
+msgid "Free Support"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:100
+msgid ""
+"If you experience any problems, please post your questions to support and we "
+"will be more than happy to help you out."
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:101
+msgid "Get Free Support"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:107
+msgid "Common Problems"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:109
+msgid ""
+"For quick answers to the most common problems, you can check out the "
+"tutorials which can provide instant solutions and answers."
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:110
+msgid "Get Answers"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:120
+msgid "Theme Review"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:122
+msgid ""
+"We would love to request a 5-star rating from you! If so, please visit the "
+"theme page and add your review and your star rating. If you have suggestions "
+"to help improve the theme, let us know, but If you run into any problems, "
+"request support and we will be happy to help you out."
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:123
+msgid "Add Your Star Rating"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:134
+msgid "Get Blog Writer Pro"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:137
+msgid "Mobile Friendly"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:146
+msgid "Unlimited Colours"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:155
+msgid "Adjustable Page Width"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:165
+msgid "Background Image"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:174
+msgid "Built-In Social Menu"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:183
+msgid "Show or Hide Elements"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:192
+msgid "Custom Error Page"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:202
+msgid "Blog Styles"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:211
+msgid "Sidebar Positions"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:220
+msgid "Page Templates"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:230
+msgid "Recent Posts Widget with Thumbnails"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:239
+msgid "Related Posts with Thumbnails"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:267
+msgid "Featured Image Captions for Posts"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:268
+msgid "Enhance your post featured images with captions"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:277
+msgid "Custom Blog Title &amp; Introduction"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:278
+msgid ""
+"WordPress does not have this, but we have added a customizable blog title "
+"and intro option."
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:286
+msgid "Blog Thumbnail Creation"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:287
+msgid "Automatically have post featured images cropped when uploading."
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:295
+msgid "Custom Widget Style"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:296
+msgid ""
+"We included a minimal custom style for your widgets that you can enable."
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:304
+msgid "Add Google Fonts"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:305
+msgid "Add up to 2 more Google Fonts."
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:313
+msgid "Typography Options"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:314
+msgid "Change the font for your main text and headings, and more."
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:322
+msgid "Custom Styled Archive Titles"
+msgstr ""
+
+#: inc/theme-info/blog-writer-info.php:323
+msgid "We customized the style of archive titles for tags, categories, etc."
+msgstr ""
+
+#: inc/widgets/class-blog-writer-recent-posts-widget.php:23
+msgid "Blog Writer Recent Posts"
+msgstr ""
+
+#: inc/widgets/class-blog-writer-recent-posts-widget.php:29
+msgid "Blog Writer: Recent Posts"
+msgstr ""
+
+#: inc/widgets/class-blog-writer-recent-posts-widget.php:31
+msgid ""
+"A widget that displays your recent posts from all categories or a category "
+"with thumbnails."
+msgstr ""
+
+#: inc/widgets/class-blog-writer-recent-posts-widget.php:71
+msgid "No Image"
+msgstr ""
+
+#: inc/widgets/class-blog-writer-recent-posts-widget.php:118
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/class-blog-writer-recent-posts-widget.php:122
+msgid "Number of posts to show:"
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:22
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:11
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:12
+msgctxt "Search field placeholder label"
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:19
+msgctxt "Submit button"
+msgid "Search"
+msgstr ""
+
+#: template-parts/layouts/blog-centered.php:18
+#: template-parts/layouts/blog-default.php:18
+#: template-parts/layouts/blog-grid.php:19
+msgid "Posts"
+msgstr ""
+
+#: template-parts/layouts/blog-centered.php:58
+#: template-parts/layouts/blog-default.php:59
+#: template-parts/layouts/blog-grid.php:42
+msgid "Featured"
+msgstr ""
+
+#. translators: %s: Name of current post
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/layouts/blog-centered.php:81
+#: template-parts/layouts/blog-default.php:82
+#: template-parts/post/content.php:39
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/navigation/nav-blog.php:8
+msgid " Previous page"
+msgstr ""
+
+#: template-parts/navigation/nav-blog.php:9
+msgid "Next page"
+msgstr ""
+
+#: template-parts/navigation/nav-blog.php:10
+msgid "Page"
+msgstr ""
+
+#: template-parts/navigation/nav-paged.php:8 template-parts/post/content.php:50
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/navigation/nav-post.php:8
+msgid "Next"
+msgstr ""
+
+#: template-parts/navigation/nav-post.php:9
+msgid "Next post:"
+msgstr ""
+
+#: template-parts/navigation/nav-post.php:11
+msgid "Previous"
+msgstr ""
+
+#: template-parts/navigation/nav-post.php:12
+msgid "Previous post:"
+msgstr ""
+
+#: template-parts/navigation/nav-social.php:9
+msgid "Social Menu"
+msgstr ""
+
+#: template-parts/post/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/post/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/post/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/post/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Blog Writer"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://www.bloggingthemestyles.com/free-wordpress-themes/blog-writer/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Blog Writer is a clean and minimal blog theme that is built for writers who "
+"need to create a personal blog site with simplicity and suttle effects to "
+"make readers feel the pleasure of reading your articles. The design concept "
+"for Blog Writer includes modern, classic, and minimal styles to give you a "
+"simple and clean blog. For bloggers, this is truely a perfect choice for you "
+"if you want to only focus on creating amazing stories. It’s super simple and "
+"easy to setup while giving you a well crafted blog right out of the box. "
+"Enjoy several blog styled layouts that includes a grid layout option, theme "
+"customizer, page templates, styled WP Gallery, unlimited colours and more..."
+"Be sure to read more About Blog Writer under the Appearance admin menu."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Blogging Theme Styles"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.bloggingthemestyles.com"
+msgstr ""

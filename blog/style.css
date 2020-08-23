@@ -1,0 +1,20 @@
+/*
+Theme Name:   Blog Writer Child
+Theme URI :   http://stmoore.net/blog-writer-child/
+Description:  Blog Writer Child Theme
+Author:       Melissa St Moore
+Author URI:   http://stmoore.net
+Template:     blog-writer
+Version: 1.0.4 
+License: GPLv3 or later 
+License URI: http: //www.gnu.org/licenses/gpl-3.0.en.html
+Text Domain: blog-writer 
+Tags:  blog, news, grid-layout, theme-options, custom-background, custom-logo, custom-menu,
+featured-images, sticky-post, right-sidebar, left-sidebar, footer-widgets, custom-colors, translation-ready
+*/
+
+
+body {
+    background-color: red;
+	color: green;
+}
