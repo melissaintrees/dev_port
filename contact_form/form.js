@@ -1,70 +1,43 @@
 
 $(function()
 {
-    $("#intial_message").html("<h1>Contact Me</h1>");
-    $("h1").addClass("contact-title text-center");
-    $("#intial_message").append("<p>to chat about working together on a solution for your project.</p>");
-    $("p").addClass("contact-text");
-
-
-    function after_form_submitted(data) 
-    {
-        if(data.result == 'success')
-        {
-            $('form#reused_form').hide();
-            $('#success_message').show();
-            $('#error_message').hide();
-        }
-        else
-        {
-            $('#error_message').append('<ul></ul>');
-
-            jQuery.each(data.errors,function(key,val)
-            {
-                $('#error_message ul').append('<li>'+key+':'+val+'</li>');
-            });
-            $('#success_message').hide();
-            $('#error_message').show();
-
-            //reverse the response on the button
-            $('button[type="button"]', $form).each(function()
-            {
-                $btn = $(this);
-                label = $btn.prop('orig_label');
-                if(label)
-                {
-                    $btn.prop('type','submit' ); 
-                    $btn.text(label);
-                    $btn.prop('orig_label','');
-                }
-            });
-            
-        }//else
-    }
-
+    // when form is submitted
 	$('#reused_form').submit(function(e)
       {
         e.preventDefault();
-        $('form#reused_form').hide();
-        $('#intial_message').hide();
-        $('#success_message').show();
+        //clear inputs
+  
+        // $('#success_message').show();
         $form = $(this);
-        //show some response on the button
-        $('button[type="submit"]', $form).each(function()
-        {
-            $btn = $(this);
-            $btn.prop('type','button' ); 
-            $btn.prop('orig_label',$btn.text());
-            $btn.text('Sending ...');
-        });
-        
+            // send via ajax
             $.ajax({
             type: "POST",
             url: 'handler.php',
             data: $form.serialize(),
-            success: after_form_submitted,
-            dataType: 'json' 
-        });        
-        
+            // success: after_form_submitted,
+            dataType: 'json' ,
+            success: (data) => {
+                // alert("form was submitted successfully");
+                console.log(data)
+                resetForm();
+                $('#success_message').show();
+            }, 
+            // handle errors
+            error: (req, status, error) => {
+                // alert('An error occurred...');
+                console.log(req)
+                console.log(status)
+                resetForm();
+                $('#error_message').show();
+            }
+            });   
+            resetForm = () => {
+                $('form :input').val('');
+                $('form#reused_form').hide();
+                $('#intial_message').hide();
+                setTimeout(function() {
+                    location.reload();
+                }, 10000);
+            }     
       });	
 });
