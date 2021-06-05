@@ -393,30 +393,31 @@ element but with different opacity */
 
 .gallery-nav {
     border-bottom: solid 1px #707070;
-    padding: 50px 0 60px 0;
+    padding: 50px 0 30px;
 }
 
-.gallery-nav>.project-title {
-    float: left;
-}
 
 a>.gallery-stamp {
     padding-top: 12px;
     padding-right: 20px;
 }
 
-a>.right-arrow {
-    padding-top: 10px;
+ul.gallery_icons li a:hover {
+    text-decoration: none;
 }
 
-.gallery_icons {
-    float: right;
+ul.gallery_icons li a {
+    color:#707070 !important;
+    margin: 0 15px;
+}
+
+.gallery_icons>li {
+    display: inline;
 }
 
 .project-title {
     font-size: 2em;
     font-weight: 700;
-    padding-bottom: 15px;
 }
 
 .vim-player {
@@ -541,7 +542,10 @@ footer {
 a>i.fab, .svg-inline--fa
 {
     font-size: 30px !important;
+    /* color:#6A6A6A; */
 }
+
+
 
 /* animations */
 .opening {
