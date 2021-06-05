@@ -28,7 +28,7 @@
         <header class="header-container">
             <nav class="navbar navbar-expand-md navbar-light">
                 <a class=" my-0 mr-md-auto" href="#">
-                    <img class="logo" src="./assets/images/logo-initials-mstmoore.png" class="" alt="intials logo melissa st moore development">
+                    <img class="logo" src="./assets/images/logo-initials-mstmoore.svg" class="" alt="intials logo melissa st moore development">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03"
                     aria-expanded="false" aria-label="Toggle navigation">
