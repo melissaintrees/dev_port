@@ -7,7 +7,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Melissa St Moore / Front End Developer</title>
+    <title>St Moore Dev - Development & Design</title>
 
     <meta name="description" content="The Blog &amp; Portfolio &amp; Music of Melissa St Moore, a front end developer, designer and musician.">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"

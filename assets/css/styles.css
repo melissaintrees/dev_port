@@ -105,7 +105,29 @@ header {
 }
 
 
+
 /* Home/About Page */
+
+.bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+    animation-delay: 26s;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+
+
 .home-container,
 .project-container,
 header {
@@ -215,6 +237,14 @@ padding-right: 3em;
     position: relative;
     min-height: 50vh;
     padding-bottom: 50px;
+    z-index:0; 
+    -webkit-transform: translateZ( 0 );
+    transform: translateZ( 0 );
+    -webkit-transition: -webkit-transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
 }
 
 .skills-title {
@@ -409,6 +439,11 @@ ul.gallery_icons li a:hover {
 ul.gallery_icons li a {
     color:#707070 !important;
     margin: 0 15px;
+}
+
+.slide-i {
+    color: black;
+
 }
 
 .gallery_icons>li {
