@@ -5,15 +5,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=10,minimal-ui">
-    <meta name="description" content="St Moore Dev - Web Developer | Musician based in Chicago and Los Angeles.">
-    <meta property="og:title" content="Melissa St Moore">
-    <meta property="og:description"
-        content="Web Developer | Designer based in Chicago and Los Angeles. As a creative thinker, I research, build and iterate upon software experiences leveraging modern technologies and">
+    <meta name="description" content="Melissa St Moore - Software Dev & Musician based in Chicago and remote.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://stmoore.s3.us-east-2.amazonaws.com/stmoorepreview.png"
         alt="a preview image for web dev portfolio">
-    <meta property="og:url" content="https://www.stmoore.net">
-    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:url" content="https://www.stmoore.dev">
 
     <title>St Moore Dev - Contact</title>
 
@@ -28,46 +24,56 @@
     <!-- outside -->
     <link rel="stylesheet preconnect"
         href="https://fonts.googleapis.com/css?family=Merriweather:400,700,700|Open+Sans+Condensed:300,700|Open+Sans:300,400,700">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css"
-        integrity="sha384-p2jx59pefphTFIpeqCcISO9MdVfIm4pNnsL08A6v5vaQc4owkQqxMV8kg4Yvhaw/" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/7d23260491.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
         integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <!-- local -->
-    <link rel="stylesheet" type="text/css" media="screen" href="../assets/css/styles.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../assets/css/styles.css?version=1.2" />
 
 </head>
 
 
-<body class="bg-color-proj animated fadeIn opening">
-    <header>
-        <nav class="navbar navbar-expand-md navbar-light">
-            <a class=" my-0 mr-md-auto" href="#"><img class="logo" src="../assets/images/logo-initials-mstmoore.svg"
-                    class="" alt="intials logo melissa st moore development"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#dev-port-navbar"
-                aria-controls="dev-port-navbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon navbar-light">Menu</span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="dev-port-navbar">
-                <ul class="navbar-nav text-center main-nav">
-                    <li class="nav-item"><a href="/">About</a></li>
-                    <li class="nav-item"><a href="/projects.html">Projects</a></li>
-                    <li class="nav-item"><a href="https://www.stmoore.net/blog">Blog</a></li>
-                    <li class="nav-item"><a class="active" href="/contact_form/contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <div class="contact-container text-center">
-            <div id="intial_message">
-                <h1 class="contact-title">Contact Me</h1>
-                <p class="contact-text">to chat about working together on a solution for your project.</p>
-            </div>
-            <div class="container">
-                <div class="row">
+<body>
+    <div class="projects resp-shading animated fadeIn opening">
+        <header>
+            <nav class="navbar navbar-expand-md navbar-light">
+                <a class=" my-0 mr-md-auto" href="#"><img class="logo" src="../assets/images/logo-initials-mstmoore.svg"
+                        class="" alt="intials logo melissa st moore development"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#dev-port-navbar"
+                    aria-controls="dev-port-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon navbar-light">Menu</span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="dev-port-navbar">
+                    <ul class="navbar-nav text-center main-nav">
+                        <li class="nav-item"><a href="../index.html">About</a></li>
+                        <li class="nav-item"><a href="../projects.html">Projects</a></li>
+                        <li class="nav-item"><a class="active" href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main class="projects-container d-flex align-items-center">
+            <!-- <div class="contact-container align-items-center text-center"> -->
+            <div class="container inner-container d-flex align-items-center justify-content-center">
+                <div class="row w-500">
+                    <div class="col-lg-12">
+                        <div id="intial_message">
+                            <h1 class="contact-title text-center animated fadeInUp">Contact Me</h1>
+                            <p class="contact-text text-center animated fadeInUp">to chat about working together on a
+                                solution for your project.
+                            </p>
+                        </div>
+                    </div>
+
                     <div class="col-md-12">
-                        <form role="form" method="post" id="reused_form">
+
+                        <form role="form" method="POST" id="contact_form">
+                            <input type="hidden" name="access_key" value="14f41780-ef36-4a81-8b3f-8e67c2c02150">
+                            <input type="hidden" name="subject" value="New Submission from Web3Forms">
+                            <input type="checkbox" name="botcheck" id="" style="display: none;">
+
                             <div class="form-group">
                                 <label for="name" class="contact-label col-form-label">Name</label>
                                 <input type="text" class="form-control" name="name" required>
@@ -75,23 +81,23 @@
                             <div class="form-group">
                                 <label for="email" class="contact-label col-form-label">E-mail</label>
                                 <input type="email" class="form-control" name="email" required>
+
                             </div>
                             <div class="form-group">
                                 <label for=“message” class="contact-label col-form-label">Message</label>
                                 <textarea class="form-control" name=“message” rows="2" required></textarea>
                             </div>
                             <div class="form-group float-right">
-                                <button onclick=type="submit" name="submit" value="submit"
-                                    class="custom-btn-1 hvr-float">Send</button>
+                                <button name="submit" value="submit" class="custom-btn-1 hvr-float">Send</button>
+                                <!-- <button class="custom-btn-1 hvr-float">Send</button> -->
                             </div>
                         </form>
-                        <div id="success_message" style="width:100%; height:100%; display:none; ">
+                        <div id="success_message" style="width:100%; height:100%; display:none;">
                             <h1 class="contact-title">Your message was sucessfully transmitted!</h1>
-                            <p class="contact-text">I will get back to you shortly!</p>
-
+                            <p class="contact-text">I will get back to you at my earliest convenience.</p>
                         </div>
-                        <div id="error_message" style="width:100%; height:100%; display:none; ">
-                            <h1 class="contact-title">Sorry! There was an error processing your message.</h1>
+                        <div id="error_message" style="width:100%; height:100%; display:none;">
+                            <h1 class="contact-title">Sorry, there was an error processing your message.</h1>
                             <p class="contact-text">Please email me at
                                 <a mailto="melissaintrees@gmail.com">melissaintrees@gmail.com instead</a>
                             </p>
@@ -99,8 +105,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+    </div>
     </main>
+    </div>
     <footer>
         <div class="row">
             <div class="col-md-6 ">
@@ -110,13 +117,11 @@
             </div>
             <div class="col-md-1"></div>
             <div class="col-md-5">
-
-                <a href="https://www.linkedin.com/in/melissastmoore"><i class="fab fa-linkedin-in fa-fw social"></i></a>
+                <a href="https://www.linkedin.com/in/melissastmoore"><i class="fa-brands fa-linkedin-in social"></i></a>
                 <a href="https://www.github.com/melissaintrees" target="_blank"><i
-                        class="fab fa-github fa-fw social"></i></a>
-                <a href="https://twitter.com/melissastmoore" target="_blank"><i
-                        class="fab fa-twitter fa-fw social"></i></a>
-
+                        class="fa-brands fa-github social"></i></a>
+                <a href="https://twitter.com/stmooresfire" target="_blank"><i
+                        class="fa-brands fa-x-twitter social"></i></a>
             </div>
         </div>
     </footer>

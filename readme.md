@@ -1,12 +1,10 @@
-
 # Developer Portfolio
 
-Ignore the Blog/Wordpress files as they are hosted on Bluehost and backed up on wp itself. 
-Mainly for changes and updates in the html/js/css
+Vanilla HTML/CSS/JS Portfolio to showcase the development work of St Moore Dev
+2020-Present
 
 ### :)
 
-
 ## Authors
 
-Melissa – [@melissastmoore](https://youtube.com/melissastmoore) – melissastmoore@gmail.com
+Melissa – [@melissastmoore](https://stmoore.dev) – melissaintrees@gmail.com
