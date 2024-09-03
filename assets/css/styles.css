@@ -186,11 +186,17 @@ h1.abt-title {
 #error_message>p.contact-text,
 #intial_message>p.contact-text,
 #success_message>p.contact-text,
-input[type=text],
 .contact-label,
 p.abt-text,
 p.project-text {
     color: #6a6a6a;
+    font-family: Merriweather, serif
+}
+
+input[type=text],
+input[type=email],
+.form-control {
+    color: #6a6a6a !important;
     font-family: Merriweather, serif
 }
 
