@@ -259,7 +259,7 @@ p.abt-text {
     font-size: 3em
 }
 
-.skills-h4 {
+.skills-h3 {
     color: #ededef;
     font-weight: 700;
     font-family: Merriweather, serif;
@@ -286,25 +286,25 @@ ul {
     font-weight: 700
 }
 
-.skills-h4 a {
+.skills-h3 a {
     color: #ededef;
     position: relative;
     text-decoration: none;
     transition: color .4s ease-out
 }
 
-.skills-h4 a:hover {
+.skills-h3 a:hover {
     color: #ada28c;
     right: 0;
     text-decoration: none
 }
 
-.skills-h4 a:hover:after {
+.skills-h3 a:hover:after {
     border-color: #ada28c;
     right: 0
 }
 
-.skills-h4 a:after {
+.skills-h3 a:after {
     border-radius: 1em;
     border-top: .1em solid #ededef;
     content: "";
@@ -315,7 +315,7 @@ ul {
     transition: right .4s cubic-bezier(0, .5, 0, 1), border-color .4s ease-out
 }
 
-.skills-h4 a:hover:after {
+.skills-h3 a:hover:after {
     right: 0
 }
 
@@ -728,7 +728,7 @@ footer {
         font-size: 2.7em
     }
 
-    .skills-h4 {
+    .skills-h3 {
         padding-top: 15px
     }
 
