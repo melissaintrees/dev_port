@@ -186,6 +186,7 @@ h1.abt-title {
 #error_message>p.contact-text,
 #intial_message>p.contact-text,
 #success_message>p.contact-text,
+input[type=text],
 .contact-label,
 p.abt-text,
 p.project-text {
