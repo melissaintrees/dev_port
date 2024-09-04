@@ -395,6 +395,10 @@ p.project-text {
     padding: 50px 0 30px
 }
 
+.gallery_icons {
+    margin-top: 15px;
+}
+
 ul.gallery_icons li a:hover {
     text-decoration: none
 }
@@ -777,9 +781,6 @@ footer {
         padding: 0 0 50px 0
     }
 
-    ul.gallery_icons {
-        margin-top: 10px
-    }
 }
 
 @media screen and (max-width:450px) {
@@ -799,10 +800,6 @@ footer {
     h1.contact-title,
     h1.project-title {
         font-size: 1.5em
-    }
-
-    ul.gallery_icons {
-        margin-top: 8px
     }
 
     .svg-inline--fa {
