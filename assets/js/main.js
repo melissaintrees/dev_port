@@ -27,31 +27,11 @@ $(document).ready(function () {
 
 });
 
-// const scrollFun = () => { document.getElementById("skills").scrollIntoView() }
+
 const year = new Date().getFullYear();
 document.getElementById('currentYear').innerHTML = year;
-// document.getElementsByClassName('custom-btn-1').onclick = function () {
-//     alert("button was clicked");
-//     $("a").removeClass("custom-btn-1")
-// };
 
-// $(function () {
-//     // if ($('#test-projects-page') == true) {
-//     //     alert("This works?")
-//     // } else {
-//     //     alert("This also works?")
-//     // }
-//     // if ($('#test-projects-page').hasScrollBar()) {
-//     //     alert("this is the main prj page")
-//     // } else if ($('#test-project-page').hasScrollBar()) {
-//     //     alert("this is the ind prj page")
-//     // }
-//     alert('main project page: ' + $('#test-projects-page').hasScrollBar());
-//     alert('indiv project page: ' + $('#test-project-page').hasScrollBar());
-// });
-
-// (function ($) {
-//     $.fn.hasScrollBar = function () {
-//         return this.get(0).scrollHeight > this.height();
-//     }
-// })(jQuery);
+document.querySelectorAll('.vim-player button').forEach(button => button.addEventListener('click', () => {
+    const video = button.previousElementSibling;
+    video.src = video.dataset.src;
+}))
