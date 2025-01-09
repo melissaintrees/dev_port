@@ -502,9 +502,20 @@ a.custom-btn-1:focus {
     border-color: #6e6b6b
 }
 
-.bob img {
+.project-slide img {
     width: 1000px;
     height: 550px
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    opacity: 1;
+    width: 20%;
+}
+.carousel-control-next span,
+.carousel-control-prev span {
+    color: #B6AB97;
+    font-size: 35px;
 }
 
 body.contact {
@@ -879,3 +890,10 @@ footer {
         font-size: 1em
     }
 }
+
+/* .carousel-item {
+    display: none;
+}
+.carousel-item.active{
+    display: block;
+} */
