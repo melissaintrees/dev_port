@@ -1,6 +1,6 @@
 # Developer Portfolio
 
-Vanilla HTML/CSS/JS Portfolio to showcase the development work of St Moore Dev
+Vanilla HTML/CSS/JS/A11y Friendly Portfolio to showcase the development work of St Moore Dev
 2020-Present
 
 ### :)
